@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+.AppProject {
+  div {
+    width: 40%;
+    margin: auto;
+    padding: 15px 0;
+    h1 {
+      text-align: center;
+      padding: 10px 0;
+      font-size: 7vw;
+    }
+    p {
+      color: gray;
+      font-size: 2vw;
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .AppProject {
+    div {
+      width: 80%;
+      h1 {
+        font-size: 11vw;
+      }
+      p {
+        text-align: center;
+        font-size: 1.4vh;
+      }
+    }
+  }
+}

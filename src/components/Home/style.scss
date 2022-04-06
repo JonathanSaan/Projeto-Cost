@@ -1,0 +1,64 @@
+* {
+  box-sizing: border-box;
+  font-family: sans-serif;
+  text-decoration: none;
+  padding: 0;
+  margin: 0;
+}
+
+.App{
+  .container {
+    display: flex;
+    background-color: #f4f2f2;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    h1 {
+      font-size: 5vw;
+      color: black;
+      span{
+        padding: 3px;
+        background-color: #222222;
+        color: #F9A826;
+      }
+    }
+    p {
+      color: gray;
+      font-size: 1.8vw;
+      margin: 20px 0;
+    }
+    button {
+      border: none;
+      padding: 10px;
+      background-color: #222222;
+      .Link {
+        color: #FFF;
+      }
+    }
+    button:hover {
+      color: #F9A826;
+    }
+    img {
+      height: 20rem;
+      margin: 2% 0 30% 0;
+    }
+  }
+}
+
+@media screen and (max-width: 400px) {
+    .App{
+      .container {
+        h1 {
+          font-size: 4vh;
+        }
+        p {
+          font-size: 1.5vh;
+        }
+        img {
+          margin: 5% 0 40% 0;
+          height: 40vh;
+        }
+      }
+    }
+  }
