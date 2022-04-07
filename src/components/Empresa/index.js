@@ -1,7 +1,5 @@
 import { Header, Footer } from "../Header_Footer";
 
-
-
 export function Empresa() {
   
   return (

@@ -1,11 +1,3 @@
-* {
-  box-sizing: border-box;
-  font-family: sans-serif;
-  text-decoration: none;
-  padding: 0;
-  margin: 0;
-}
-
 .App{
   .container {
     display: flex;
@@ -15,7 +7,7 @@
     justify-content: center;
     flex-direction: column;
     h1 {
-      font-size: 5vw;
+      font-size: 3rem;
       color: black;
       span{
         padding: 3px;
@@ -25,19 +17,21 @@
     }
     p {
       color: gray;
-      font-size: 1.8vw;
-      margin: 20px 0;
+      font-size: 1rem;
+      margin: 18px 0;
     }
     button {
       border: none;
       padding: 10px;
       background-color: #222222;
       .Link {
+        transition: 0.5s;
+        text-decoration: none;
         color: #FFF;
       }
-    }
-    button:hover {
-      color: #F9A826;
+      .Link:hover {
+        color: #F9A826;
+      }
     }
     img {
       height: 20rem;
@@ -50,10 +44,10 @@
     .App{
       .container {
         h1 {
-          font-size: 4vh;
+          font-size: 2rem;
         }
         p {
-          font-size: 1.5vh;
+          font-size: .7rem;
         }
         img {
           margin: 5% 0 40% 0;

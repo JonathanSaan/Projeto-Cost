@@ -1,0 +1,68 @@
+.AppProjetos{
+  background-color: #f4f2f2;
+  header {
+    display: flex;
+    padding: 0 2% 0 9%;
+    background-color: #f4f2f2;
+    justify-content: space-between;
+    button {
+        border: none;
+        padding: 10px;
+        background-color: #222222;
+        .Link {
+          transition: 0.5s;
+          text-decoration: none;
+          color: #FFF;
+        }
+        .Link:hover {
+          color: #F9A826;
+        }
+      }
+  }
+  .newproject {
+      display: inline-block;
+      margin: 0 0 5% 9%;
+      padding: 10px;
+      height: auto;
+      width: 200px;
+      border: 1px solid lightgray;
+      border-radius: 10px;
+      h1 {
+        font-size: 1.5rem;
+        padding: 5px;
+        color: #F9A826;
+        background-color: #222222;
+      }
+      h2 {
+        margin: 10px 0;
+        font-size: 1rem;
+        font-weight: 500;
+      }
+      button {
+        margin: 20px 20px 20px 0;
+        border: 1px solid gray;
+        padding: 5px;
+        background-color: #FFF;
+        align-items: center;
+        span {
+          margin: 0 5px 0 0;
+        }
+      }
+    }
+}
+
+@media screen and (max-width: 400px) {
+  .AppProjetos {
+    header {
+      align-items: center;
+      margin: 0;
+      padding: 0 7px;
+      h1 {
+        font-size: 5vw;
+      }
+    }
+    .newproject {
+      margin: 5px 5px 60% 5px;
+    }
+  }
+}

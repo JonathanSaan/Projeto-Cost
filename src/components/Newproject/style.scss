@@ -1,12 +1,5 @@
-* {
-  box-sizing: border-box;
-  font-family: sans-serif;
-  text-decoration: none;
-  padding: 0;
-  margin: 0;
-}
-
-.AppProject {
+.AppNewProject {
+  background-color: #f4f2f2;
   div {
     width: 40%;
     margin: auto;
@@ -20,11 +13,38 @@
       color: gray;
       font-size: 2vw;
     }
+    form {
+      margin: 35px 0;
+      label {
+        font-weight: 600;
+      }
+      input, select {
+        border: none;
+        background-color: #FFF;
+        margin: 7px 0 18px 0;
+        padding: 9px;
+        width: 100%;
+      }
+      button {
+        border: none;
+        margin: 10px 0 0 0;
+        padding: 10px;
+        background-color: #222222;
+        .Link {
+          transition: 0.5s;
+          text-decoration: none;
+          color: #FFF;
+        }
+        .Link:hover {
+          color: #F9A826;
+        }
+      }
+    }
   }
 }
 
 @media screen and (max-width: 400px) {
-  .AppProject {
+  .AppNewProject {
     div {
       width: 80%;
       h1 {
@@ -32,7 +52,7 @@
       }
       p {
         text-align: center;
-        font-size: 1.4vh;
+        font-size: 2.7vw;
       }
     }
   }
